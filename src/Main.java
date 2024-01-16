@@ -1,6 +1,10 @@
 import Conditions.*;
 import LangSyntax.DigitsSumCalculator;
 import LangSyntax.NumberReverter;
+import Loops.HalfPyramid;
+import Loops.MultiplicationTable;
+import Loops.Power;
+import Loops.Pyramid;
 import OOP.Animal;
 import OOP.Bird;
 import OOP.Dog;
@@ -35,5 +39,11 @@ public class Main {
         IntegerDivider.printCompletelyDivided(10, 5);
         CoordinatePane.printQuadrant(5, -3);
         BitwiseValuesSwap.swap(7, 12);
+
+        //Loops
+        MultiplicationTable.printTable(7);
+        Pyramid.printPyramid(9);
+        Power.printPower(3, 3);
+        HalfPyramid.printHalfPyramid(8);
     }
 }
