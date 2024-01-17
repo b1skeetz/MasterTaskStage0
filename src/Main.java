@@ -9,9 +9,6 @@ import OOP.Animal;
 import OOP.Bird;
 import OOP.Dog;
 
-import java.time.LocalDate;
-import java.util.Locale;
-
 public class Main {
     public static void main(String[] args) {
         // OOP
