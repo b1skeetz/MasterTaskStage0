@@ -1,5 +1,9 @@
 package Conditions;
 
+/*Implement the program that will print the season name to the console by the number of the month.
+If month is incorrect -> print "Wrong month number". Month will be passed as the method argument.
+(Example: "1" -> "Winter", 0 -> "Wrong month number")*/
+
 public class SeasonDeterminer {
     public static void tellTheSeason(int monthNumber) {
         switch(monthNumber){

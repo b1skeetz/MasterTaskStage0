@@ -1,5 +1,8 @@
 package LangSyntax;
 
+/*You will be given a four-digit number your task will be to find the sum of all digits in the given number.
+Where number - variable that should be used within the program. */
+
 public class DigitsSumCalculator {
     public static void calculateSum(int number){
         if(number > 9999 || number < 1000) {

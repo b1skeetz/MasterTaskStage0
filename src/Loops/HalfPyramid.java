@@ -1,5 +1,7 @@
 package Loops;
 
+// Write a program that will print half of a pyramid
+
 public class HalfPyramid {
     public static void printHalfPyramid(int cathetusLength) {
         StringBuilder level = new StringBuilder();

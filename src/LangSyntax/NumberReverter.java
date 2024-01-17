@@ -1,5 +1,8 @@
 package LangSyntax;
 
+/*Revert 3-digit number that will be passed (e.g.: given -> 489, expected -> 984) and print it.
+Where number - variable that should be used within the program.*/
+
 public class NumberReverter {
     public static void revert(int number){
         if(number > 999 || number < 100) {

@@ -1,5 +1,9 @@
 package Conditions;
 
+/*Create a program that will consume 2 integers from method args as data of a coordinate point in a XY coordinate
+system and determine in which quadrant the coordinate point lies(beginning with top right:
+"first", "second", "third", "fourth", "zero"):*/
+
 public class CoordinatePane {
     public static void printQuadrant(int x, int y) {
         if(x == 0 && y == 0){

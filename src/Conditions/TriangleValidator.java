@@ -1,5 +1,8 @@
 package Conditions;
 
+/*Create a program that will consume 3 points as method arguments and will print to the console if those points can
+build up a valid triangle or not. (output when correct: "this is a valid triangle", otherwise : "it's not a triangle")*/
+
 public class TriangleValidator {
     public static void validate(double firstSide, double secondSide, double thirdSide) {
         if (firstSide <= 0 || secondSide <= 0 || thirdSide <= 0) {
