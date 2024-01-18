@@ -1,3 +1,4 @@
+import AlgorithmsAndArrays.ArraysTask;
 import Conditions.*;
 import LangSyntax.DigitsSumCalculator;
 import LangSyntax.NumberReverter;
@@ -8,6 +9,8 @@ import Loops.Pyramid;
 import OOP.Animal;
 import OOP.Bird;
 import OOP.Dog;
+
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,10 +40,22 @@ public class Main {
         CoordinatePane.printQuadrant(5, -3);
         BitwiseValuesSwap.swap(7, 12);
 
-        //Loops
+        // Loops
         MultiplicationTable.printTable(7);
         Pyramid.printPyramid(9);
         Power.printPower(3, 3);
         HalfPyramid.printHalfPyramid(8);
+
+        // Algorithm and Arrays
+        System.out.println(Arrays.toString(ArraysTask.seasonsArray()));
+        System.out.println(Arrays.toString(ArraysTask.generateNumbers(5)));
+        int[] totalSum = new int[]{1, 3, 5, 7, 9, 11};
+        System.out.println(ArraysTask.totalSum(totalSum));
+        int[] findIndex = new int[]{1, 12, 4, 5, 7, 9, 11};
+        System.out.println(ArraysTask.findIndexOfNumber(findIndex, 7));
+        String[] reverse = new String[]{"pineapple", "apple", "pen", "watermelon", "melon", "water"};
+        System.out.println(Arrays.toString(ArraysTask.reverseArray(reverse)));
+        int[] notOnlyPosNums = new int[] {-8, 5, 9, -2, 4, -1, 2};
+        System.out.println(Arrays.toString(ArraysTask.getOnlyPositiveNumbers(notOnlyPosNums)));
     }
 }
