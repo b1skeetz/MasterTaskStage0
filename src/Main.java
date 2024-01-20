@@ -30,7 +30,7 @@ public class Main {
 
         // Lang Syntax
         NumberReverter.revert(489);
-        DigitsSumCalculator.calculateSum(4835);
+        DigitsSumCalculator.calculateSum(1111);
 
         // Conditions
         SeasonDeterminer.tellTheSeason(1);
