@@ -41,7 +41,7 @@ public class Main {
         BitwiseValuesSwap.swap(7, 12);
 
         // Loops
-        MultiplicationTable.printTable(7);
+        MultiplicationTable.printTable(5);
         Pyramid.printPyramid(9);
         Power.printPower(3, 3);
         HalfPyramid.printHalfPyramid(8);

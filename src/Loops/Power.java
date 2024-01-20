@@ -7,6 +7,6 @@ public class Power {
         for(int i = 0; i < power; i++){
             result *= numberToPrint;
         }
-        System.out.println("Power value = " + result);
+        System.out.println(result);
     }
 }

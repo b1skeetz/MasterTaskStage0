@@ -15,6 +15,6 @@ public class DaysInMonth {
             case 2 -> (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) ? 29 : 28;
             default -> 31;
         };
-        System.out.println("Days amount = " + daysInMonth);
+        System.out.println(daysInMonth);
     }
 }

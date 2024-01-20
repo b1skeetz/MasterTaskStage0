@@ -13,6 +13,6 @@ public class TriangleValidator {
             System.out.println("it's not a triangle");
             return;
         }
-        System.out.println("this is valid triangle");
+        System.out.println("this is a valid triangle");
     }
 }
